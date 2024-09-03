@@ -76,7 +76,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 torchrun --nproc_per_node=4 train_multiGPU.py --dat
 
 An example of training progress is as follows:
 
-![train.jpg](./train.jpg)
+![train.jpg](train.jpg)
 
 The last, you can evaluate it using [test.py](deep_sort/deep/test.py) and [evaluate.py](deep_sort/deep/evalute.py).
 

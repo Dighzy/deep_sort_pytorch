@@ -55,8 +55,8 @@ def main(args):
 
     if rank == 0:
         print(args)
-        if os.path.exists('./checkpoint') is False:
-            os.mkdir('./checkpoint')
+        if os.path.exists('checkpoint') is False:
+            os.mkdir('checkpoint')
 
     train_info, val_info, num_classes = read_split_data(args.data_dir, valid_rate=0.2)
     train_images_path, train_labels = train_info
